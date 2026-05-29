@@ -1,5 +1,3 @@
-import myPhoto from '../assets/IMG_20251207_201927_364.jpg';
-
 const Home = () => {
   // Download CV function
   const downloadCV = () => {
@@ -38,7 +36,7 @@ LANGUAGES
       <div className="section-container">
         <div className="home-container">
           <div className="home-content">
-            <div className="greeting">HELLO, I'M</div>
+            <div className="greeting">✨ HELLO, I'M</div>
             <h1 className="home-title">
               <span className="name-highlight">Chahinez Cherfi</span>
             </h1>
@@ -71,7 +69,7 @@ LANGUAGES
           <div className="home-image">
             <div className="organic-frame">
               <img 
-                src={myPhoto} 
+                src="/Portfolio/assets/IMG_20251207_201927_364-Dvu4Oqzd.jpg"
                 alt="Chahinez Cherfi"
               />
             </div>
