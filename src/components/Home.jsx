@@ -1,4 +1,4 @@
-import myPhoto from './assets/IMG_20251207_201927_364.jpg';
+import myPhoto from '../assets/IMG_20251207_201927_364.jpg';
 
 const Home = () => {
   // Download CV function
