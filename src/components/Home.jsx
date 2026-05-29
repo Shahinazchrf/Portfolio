@@ -37,11 +37,10 @@ LANGUAGES
     <section id="home" className="home-section">
       <div className="section-container">
         <div className="home-container">
-          {/* Left Side - Text */}
           <div className="home-content">
-            <div className="greeting">HELLO, I'M</div>
+            <div className="greeting">✨ HELLO, I'M</div>
             <h1 className="home-title">
-              <span className="name-highlight">Chahinez</span>
+              <span className="name-highlight">Chahinez Cherfi</span>
             </h1>
             <div className="subtitle">
               Computer Science Student – L3 <br />
@@ -69,8 +68,6 @@ LANGUAGES
               </button>
             </div>
           </div>
-          
-          {/* Right Side - Photo with organic frame */}
           <div className="home-image">
             <div className="organic-frame">
               <img 
