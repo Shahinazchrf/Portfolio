@@ -38,7 +38,7 @@ LANGUAGES
       <div className="section-container">
         <div className="home-container">
           <div className="home-content">
-            <div className="greeting">✨ HELLO, I'M</div>
+            <div className="greeting">HELLO, I'M</div>
             <h1 className="home-title">
               <span className="name-highlight">Chahinez Cherfi</span>
             </h1>
