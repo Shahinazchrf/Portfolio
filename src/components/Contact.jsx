@@ -5,7 +5,7 @@ const Contact = () => {
         <h2 className="section-title">Contact</h2>
         <div className="contact-card">
           <div className="contact-info">
-            <a href="mailto:chahinez.cherfi@univ-alger.dz" className="contact-item">📧 chahinez.cherfi@univ-alger.dz</a>
+            <a href="mailto:chahinaz.cherfi@univ-alger.dz" className="contact-item">📧 chahinaz.cherfi@univ-alger.dz</a>
             <a href="https://github.com/Shahinazchrf" target="_blank" rel="noopener noreferrer" className="contact-item">🐙 github.com/Shahinazchrf</a>
             <a href="https://www.linkedin.com/in/shahinaz-cherfi-965005349" target="_blank" rel="noopener noreferrer" className="contact-item">🔗 linkedin.com/in/shahinaz-cherfi</a>
           </div>

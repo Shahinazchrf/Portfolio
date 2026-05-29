@@ -41,7 +41,7 @@ LANGUAGES
           <div className="home-content">
             <div className="greeting">HELLO, I'M</div>
             <h1 className="home-title">
-              <span className="name-highlight">Chahinez Cherfi</span>
+              <span className="name-highlight">Chahinez</span>
             </h1>
             <div className="subtitle">
               Computer Science Student – L3 <br />
