@@ -1,7 +1,4 @@
-import myPhoto from '../assets/IMG_20251207_201927_364.jpg';
-
 const Home = () => {
-  // Download CV function
   const downloadCV = () => {
     const cvContent = `CHAHINEZ CHERFI – CV
 ========================
@@ -47,31 +44,15 @@ LANGUAGES
               Information Systems & Software Engineering
             </div>
             <div className="button-group">
-              <a 
-                href="https://github.com/Shahinazchrf" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="btn btn-outline"
-              >
-                GitHub
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/shahinaz-cherfi-965005349" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="btn btn-outline"
-              >
-                LinkedIn
-              </a>
-              <button onClick={downloadCV} className="btn btn-primary">
-                Download CV
-              </button>
+              <a href="https://github.com/Shahinazchrf" target="_blank" className="btn btn-outline">GitHub</a>
+              <a href="https://www.linkedin.com/in/shahinaz-cherfi-965005349" target="_blank" className="btn btn-outline">LinkedIn</a>
+              <button onClick={downloadCV} className="btn btn-primary">Download CV</button>
             </div>
           </div>
           <div className="home-image">
             <div className="organic-frame">
               <img 
-                src={myPhoto} 
+                src="https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop"
                 alt="Chahinez Cherfi"
               />
             </div>
