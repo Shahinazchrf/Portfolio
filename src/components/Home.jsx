@@ -1,3 +1,5 @@
+import myPhoto from '../assets/IMG_20251207_201927_364.jpg';
+
 const Home = () => {
   const downloadCV = () => {
     const cvContent = `CHAHINEZ CHERFI – CV
@@ -35,7 +37,7 @@ LANGUAGES
       <div className="section-container">
         <div className="home-container">
           <div className="home-content">
-            <div className="greeting">✨ HELLO, I'M</div>
+            <div className="greeting">HELLO, I'M</div>
             <h1 className="home-title">
               <span className="name-highlight">Chahinez Cherfi</span>
             </h1>
@@ -51,10 +53,7 @@ LANGUAGES
           </div>
           <div className="home-image">
             <div className="organic-frame">
-              <img 
-                src="https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop"
-                alt="Chahinez Cherfi"
-              />
+              <img src={myPhoto} alt="Chahinez Cherfi" />
             </div>
           </div>
         </div>
