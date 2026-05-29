@@ -1,3 +1,5 @@
+import myPhoto from './assets/IMG_20251207_201927_364.jpg';
+
 const Home = () => {
   // Download CV function
   const downloadCV = () => {
@@ -69,7 +71,7 @@ LANGUAGES
           <div className="home-image">
             <div className="organic-frame">
               <img 
-                src="/Portfolio/assets/IMG_20251207_201927_364-Dvu4Oqzd.jpg"
+                src={myPhoto} 
                 alt="Chahinez Cherfi"
               />
             </div>
