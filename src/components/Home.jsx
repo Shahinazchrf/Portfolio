@@ -71,6 +71,9 @@ LANGUAGES
               <img 
                 src="/Portfolio/assets/IMG_20251207_201927_364-Dvu4Oqzd.jpg"
                 alt="Chahinez Cherfi"
+                onError={(e) => {
+                  e.target.src = "https://randomuser.me/api/portraits/women/68.jpg";
+                }}
               />
             </div>
           </div>
